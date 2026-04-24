@@ -17,7 +17,7 @@ public class ProfileController {
         Map<String, Object> profile = new HashMap<>();
         
         // --- STUDENTS: Personalize your portfolio here! ---
-        profile.put("name", "Student Name");
+        profile.put("name", "test user");
         profile.put("role", "Full Stack DevOps Engineer");
         profile.put("tagline", "Automating the future, one pipeline at a time.");
         profile.put("bio", "I am a passionate developer currently participating in the DevOps Workshop. I specialize in building scalable Java applications and modern React frontends, all while keeping the CI/CD pipeline green.");
@@ -38,9 +38,9 @@ public class ProfileController {
         profile.put("projects", projects);
 
         // Socials
-        profile.put("github", "https://github.com/yourusername");
-        profile.put("linkedin", "https://linkedin.com/in/yourusername");
-        profile.put("email", "student@example.com");
+        profile.put("github", "https://github.com/Preethibm-cs");
+        profile.put("linkedin", "https://linkedin.com/in/Preethi B M");
+        profile.put("email", "preethibm2005@gmail.com");
         
         return profile;
     }
